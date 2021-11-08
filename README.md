@@ -1,6 +1,7 @@
 # Project Django base
 
 A basic Django project with Custom User and email not username.
+It's a good base for starting a Django project.
 
 ### Installation
 * clone the repo
@@ -10,7 +11,7 @@ A basic Django project with Custom User and email not username.
 * python manage.py createsuperuser
 * python manage.py runserver
 
-## USE
+## This proiject use
 * django
 * django-allauth
 * coverage
