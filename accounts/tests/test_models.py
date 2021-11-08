@@ -4,7 +4,7 @@ from django.contrib.auth import get_user_model
 from accounts.models import CustomUser
 
 
-class CookbookModelsTest(TestCase):
+class AccountsModelsTest(TestCase):
     def setUp(self):
         self.client = Client()
         self.user = get_user_model().objects.create_user(
