@@ -5,13 +5,10 @@ from accounts.models import CustomUser
 
 
 class CookbookModelsTest(TestCase):
-
     def setUp(self):
         self.client = Client()
         self.user = get_user_model().objects.create_user(
-            username='usertest',
-            email='usertest@erischon.dev',
-            password='testpass123'
+            username="usertest", email="usertest@erischon.dev", password="testpass123"
         )
 
     def test_customuser_name(self):
